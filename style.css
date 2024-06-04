@@ -1,0 +1,19 @@
+a:hover yellow
+
+header{
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to right, rgb(79, 172, 203), rgb(74, 38, 120),rgb(86, 2, 37));
+    background-color:rgb(55, 134, 119);
+    font-size: xx-large;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    font-family: monospace;
+}
+body{
+    background-color: bisque;
+    text-align:center;
+
+}
