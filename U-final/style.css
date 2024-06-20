@@ -1,0 +1,41 @@
+header {
+    border: 100px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to right, rgb(241, 66, 214), rgb(242, 137, 210), rgb(180, 89, 244));
+    background-color: rgb(147, 62, 122);
+    font-size: xx-large;
+    top: 0px;
+    text-align: center;
+    font-family: monospace;
+    position: sticky;
+}
+
+body {
+    background-color: bisque;
+    text-align: center;
+  
+}
+
+#container{
+    display: flex;
+}
+#grid1 {
+    width: 100%;
+}   
+
+#grid2 {
+    text-align: center;
+}   
+
+
+#grid3 {
+    width: 100%;
+}  
+footer {
+    text-align: center;
+}
+
+canvas {
+    border: thin solid cadetblue;
+}

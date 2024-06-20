@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    Makeover:A dress up game
+    </header>
+    <div id="container">
+        <div id="grid1">
+            <h1>
+                <fieldset style="display: inline;">
+                    <legend>Choose your hair:</legend>
+                    <label>
+                        <input type="radio" name="hair" onchange="show()"> Men hair 1
+                        <label>
+                            <input type="radio" name="hair"onchange="show()"> Women hair 1
+                            <label>
+                                <input type="radio" name="hair" onchange="show()"> Men hair 2
+                            </label>
+                            <label>
+                                <input type="radio" name="hair" onchange="show()"> Women hair 2
+                            </label>
+                            <label>
+                                <input type="radio" name="hair" onchange="show()"> Men hair 3
+                            </label>
+                            <label>
+                                <input type="radio" name="hair" onchange="show()"> Women hair 3
+                            </label>
+                </fieldset>
+                <fieldset style="display: inline;">
+                    <legend>Choose your shirt:</legend>
+                    <label>
+                        <input type="radio" name="shirt" onchange="show()"> Men shirt 1
+                        <label>
+                            <input type="radio" name="shirt" onchange="show()"> Women shirt 1
+                            <label>
+                                <input type="radio" name="shirt" onchange="show()"> Men shirt 2
+                            </label>
+                            <label>
+                                <input type="radio" name="shirt" onchange="show()"> Women shirt 2
+                            </label>
+                            <label>
+                                <input type="radio" name="shirt" onchange="show()"> Men shirt 3
+                            </label>
+                            <label>
+                                <input type="radio" name="shirt" onchange="show()"> Women shirt 3
+                            </label>
+                </fieldset>
+        </div>
+        </h1>
+        <div id="grid2">
+            <canvas id="canvas" width="1040" height="680"> 
+            </div>
+            <h1>
+                <div id="grid3">
+                    <fieldset style="display: inline;">
+                        <legend>Choose your pant:</legend>
+                    <label>
+                        <input type="radio" name="pant" onchange="show()"> Men pant 1
+                        <label>
+                            <input type="radio" name="pant" onchange="show()"> Women pant 1
+                            <label>
+                                <input type="radio" name="pant" onchange="show()"> Men short
+                                </label>
+                                <label>
+                                    <input type="radio" name="pant" onchange="show()"> Women pant 2
+                            </label>
+                            <label>
+                                <input type="radio" name="pant" onchange="show()"> Men pant 3
+                                </label>
+                                <label>
+                                    <input type="radio" name="pant" onchange="show()"> Women short
+                                    </label>
+                </fieldset>
+
+                <fieldset style="display: inline;">
+                    <legend>Choose your accessories:</legend>
+                    <label>
+                        <input type="radio" name="accessory" onclick="show()"> Glasses
+                        <label>
+                            <input type="radio" name="accessory" onclick="show()"> Sunglasses
+                            <label>
+                                <input type="radio" name="accessory" onclick="show()"> bracelet
+                                </label>
+                                <label>
+                                <input type="radio" name="accessory" onclick="show()"> watch
+                            </label>
+                            <label>
+                                <input type="radio" name="accessory" onclick="show()"> Necklace
+                                </label>
+                                <label>
+                                    <input type="radio" name="accessory" onclick="show()"> Purse
+                                    </label>
+                </fieldset>
+            </div>
+            </h1>
+            </div>
+            <script src="script.js"></script>
+            <footer>
+            <input type="button" value="reset" onclick="reset()">
+            <p id="out"></p>
+                <br>
+            <a rel="stylesheet" href="index.html">Back to start
+    </footer>
+    
+    </body>
+    
+</html>
